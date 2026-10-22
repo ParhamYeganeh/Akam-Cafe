@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>آدرس و موقعیت آکام | AKAM Cafe</title>
+
+    <meta
+      name="description"
+      content="آدرس آکام کافه در رشت، بلوار دیلمان شرقی، بلوار امام علی، نبش کوچه ده متری گل مریم. مشاهده موقعیت و ساعت فعالیت آکام."
+    />
+
+    <meta name="theme-color" content="#F6F0E7" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Shared styles -->
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <!-- Location page styles -->
+    <link rel="stylesheet" href="../styles/location.css" />
+  </head>
+
+  <body id="top">
+    <!-- ================================
+       HEADER
+  ================================= -->
+
+    <header class="site-header" id="home">
+      <a class="brand" href="../index.html" aria-label="آکام، صفحه اصلی">
+        <img
+          class="brand__logo"
+          src="../assets/images/akam-wordmark.png"
+          alt="آکام، قهوه و رستری"
+          width="551"
+          height="261"
+        />
+      </a>
+
+      <nav class="site-nav" id="primary-navigation" aria-label="منوی اصلی">
+        <a class="site-nav__link" href="../index.html">
+          <span class="site-nav__index">01</span>
+          خانه
+        </a>
+
+        <a class="site-nav__link" href="menu.html">
+          <span class="site-nav__index">02</span>
+          منو
+        </a>
+
+        <a class="site-nav__link" href="about.html">
+          <span class="site-nav__index">03</span>
+          درباره آکام
+        </a>
+
+        <a
+          class="site-nav__link site-nav__link--active"
+          href="location.html"
+          aria-current="page"
+        >
+          <span class="site-nav__index">04</span>
+          آدرس
+        </a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="header-cta" href="menu.html">
+          <span>مشاهده منو</span>
+          <span class="header-cta__icon" aria-hidden="true">↗&#xfe0e;</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="باز کردن منو"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ================================
+       MAIN CONTENT
+       سکشن‌های صفحه آدرس اینجا قرار می‌گیرند
+  ================================= -->
+
+    <main id="main-content">
+      <!-- SECTION 01: LOCATION HERO -->
+      <section class="location-hero" aria-labelledby="location-hero-title">
+        <div class="location-hero__container">
+          <div class="location-hero__content">
+            <div class="location-hero__eyebrow">
+              <span class="location-hero__eyebrow-line"></span>
+              <span>FIND YOUR WAY TO AKAM</span>
+              <span class="location-hero__number">01</span>
+            </div>
+
+            <p class="location-hero__overline">مقصد یک مکث دلنشین</p>
+
+            <h1 id="location-hero-title">
+              راهت را به آکام
+              <span>پیدا کن.</span>
+            </h1>
+
+            <p class="location-hero__description">
+              در بلوار دیلمان رشت، جایی برای شروع یک صبح تازه، نوشیدن قهوه‌ای
+              دلخواه و کمی فاصله گرفتن از شلوغی روزمره منتظر توست.
+            </p>
+
+            <div class="location-hero__actions">
+              <a
+                class="location-hero__map-link"
+                href="https://maps.app.goo.gl/DhcDyHW9h1q4a7hy5"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="مشاهده موقعیت آکام در گوگل مپ"
+              >
+                <span>مشاهده موقعیت روی نقشه</span>
+                <span class="location-hero__map-icon" aria-hidden="true"
+                  >↗&#xfe0e;</span
+                >
+              </a>
+
+              <a class="location-hero__hours-link" href="#location-hours">
+                ساعت فعالیت آکام
+                <span aria-hidden="true">↓&#xfe0e;</span>
+              </a>
+            </div>
+
+            <div class="location-hero__signature">
+              <span class="location-hero__signature-mark" aria-hidden="true"
+                >✳&#xfe0e;</span
+              >
+
+              <div class="location-hero__signature-text">
+                <span>AKAM CAFE</span>
+                <span>قهوه، مکث، زندگی.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-hero__visual" aria-hidden="true">
+            <div class="location-hero__visual-top">
+              <span>YOUR NEXT STOP</span>
+              <span>RASHT · IRAN</span>
+            </div>
+
+            <div class="location-hero__map-art">
+              <span class="location-hero__road location-hero__road--one"></span>
+              <span class="location-hero__road location-hero__road--two"></span>
+              <span
+                class="location-hero__road location-hero__road--three"
+              ></span>
+              <span
+                class="location-hero__road location-hero__road--four"
+              ></span>
+
+              <span class="location-hero__map-ring"></span>
+
+              <span class="location-hero__map-marker">
+                <span></span>
+              </span>
+
+              <div class="location-hero__map-label">
+                <span class="location-hero__map-label-mark">A</span>
+                <span class="location-hero__map-label-name">AKAM CAFE</span>
+                <span class="location-hero__map-label-place">
+                  DEYLAMAN · RASHT
+                </span>
+              </div>
+            </div>
+
+            <div class="location-hero__visual-bottom">
+              <span>TAKE YOUR TIME.</span>
+              <span>01 — LOCATION</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-hero__bottom">
+          <span>YOUR DAY, YOUR MOMENT.</span>
+          <span class="location-hero__bottom-line"></span>
+          <span>رشت، بلوار دیلمان شرقی</span>
+        </div>
+      </section>
+
+      <!-- SECTION 02: ADDRESS & GOOGLE MAP -->
+      <section
+        class="location-address"
+        id="location-address"
+        aria-labelledby="location-address-title"
+      >
+        <div class="location-address__container">
+          <!-- Section heading -->
+          <div class="location-address__header">
+            <div class="location-address__eyebrow">
+              <span class="location-address__eyebrow-line"></span>
+              <span>VISIT US</span>
+              <span class="location-address__number">02</span>
+            </div>
+
+            <h2 id="location-address-title">
+              آدرس آکام
+              <span>قرار بعدی‌ات، همین‌جاست.</span>
+            </h2>
+
+            <p class="location-address__intro">
+              در رشت، بلوار دیلمان شرقی، در نبش کوچه ده متری گل مریم، منتظرت
+              هستیم.
+            </p>
+          </div>
+
+          <!-- Address and map -->
+          <div class="location-address__grid">
+            <!-- Address information -->
+            <div class="location-address__info">
+              <div class="location-address__info-top">
+                <span class="location-address__info-label"> OUR ADDRESS </span>
+
+                <span class="location-address__info-symbol" aria-hidden="true">
+                  ✳&#xfe0e;
+                </span>
+              </div>
+
+              <!-- Persian address -->
+              <div class="location-address__address-block">
+                <span class="location-address__language"> آدرس فارسی </span>
+
+                <address class="location-address__persian" dir="rtl">
+                  رشت، بلوار دیلمان شرقی، بلوار امام علی، نبش کوچه ده متری گل
+                  مریم
+                </address>
+              </div>
+
+              <div class="location-address__divider"></div>
+
+              <!-- English address -->
+              <div class="location-address__address-block">
+                <span class="location-address__language">
+                  ENGLISH ADDRESS
+                </span>
+
+                <address class="location-address__english" dir="ltr">
+                  Corner of Gol Maryam 10-Meter Alley, Imam Ali Boulevard, East
+                  Deylaman Boulevard, Rasht, Iran.
+                </address>
+              </div>
+
+              <!-- Directions link -->
+              <a
+                class="location-address__directions"
+                href="https://maps.app.goo.gl/DhcDyHW9h1q4a7hy5"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="مسیریابی به آکام در گوگل‌مپ"
+              >
+                <span
+                  class="location-address__directions-icon"
+                  aria-hidden="true"
+                >
+                  ↗&#xfe0e;
+                </span>
+
+                <span>مسیریابی با گوگل‌مپ</span>
+              </a>
+
+              <div class="location-address__info-footer">
+                <span>AKAM CAFE</span>
+                <span>RASHT · IRAN</span>
+              </div>
+            </div>
+
+            <!-- Actual Google Maps embed -->
+            <div class="location-address__map">
+              <div class="location-address__map-top">
+                <span>FIND US ON THE MAP</span>
+                <span>RASHT / 02</span>
+              </div>
+
+              <div class="location-address__map-frame">
+                <iframe
+                  src="https://maps.google.com/maps?q=37.306356%2C49.601394&z=16&output=embed"
+                  title="نقشه موقعیت آکام کافه در رشت"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <div class="location-address__map-caption">
+                <span>بلوار دیلمان شرقی، رشت</span>
+                <span>GOOGLE MAPS ↗&#xfe0e;</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-address__bottom">
+            <span>WE LOOK FORWARD TO SEEING YOU.</span>
+            <span class="location-address__bottom-line"></span>
+            <span>به امید دیدارت.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 03: LOCATION OPENING HOURS -->
+      <section
+        class="location-hours"
+        id="location-hours"
+        aria-labelledby="location-hours-title"
+      >
+        <div class="location-hours__container">
+          <!-- Section introduction -->
+          <div class="location-hours__intro">
+            <div class="location-hours__eyebrow">
+              <span class="location-hours__eyebrow-line"></span>
+              <span>MAKE TIME FOR AKAM</span>
+              <span class="location-hours__number">03</span>
+            </div>
+
+            <p class="location-hours__overline">از شروع صبح تا پایان شب</p>
+
+            <h2 id="location-hours-title">
+              زمانت را
+              <span>برای یک مکث نگه دار.</span>
+            </h2>
+
+            <p class="location-hours__description">
+              روزت را با عطر قهوه شروع کن یا در میانه شلوغی، زمانی را برای خودت
+              کنار بگذار. در آکام، همیشه جایی برای لحظه‌های خوب هست.
+            </p>
+          </div>
+
+          <!-- Opening hours card -->
+          <div class="location-hours__card">
+            <div class="location-hours__card-header">
+              <div>
+                <span class="location-hours__card-label"> AKAM CAFE </span>
+
+                <h3>ساعت فعالیت کافه</h3>
+              </div>
+
+              <span class="location-hours__symbol" aria-hidden="true">
+                ✳&#xfe0e;
+              </span>
+            </div>
+
+            <div class="location-hours__schedule" dir="ltr">
+              <!-- Opening time -->
+              <div class="location-hours__time-block">
+                <span class="location-hours__time-label"> OPENING </span>
+
+                <time class="location-hours__time" datetime="06:30">
+                  06:30
+                </time>
+
+                <span class="location-hours__time-detail" dir="rtl">
+                  شش و نیم صبح
+                </span>
+              </div>
+
+              <div class="location-hours__connector" aria-hidden="true">
+                <span class="location-hours__connector-dot"></span>
+                <span class="location-hours__connector-line"></span>
+                <span class="location-hours__connector-dot"></span>
+              </div>
+
+              <!-- Closing time -->
+              <div class="location-hours__time-block">
+                <span class="location-hours__time-label"> CLOSING </span>
+
+                <time class="location-hours__time" datetime="22:30">
+                  22:30
+                </time>
+
+                <span class="location-hours__time-detail" dir="rtl">
+                  ده و نیم شب
+                </span>
+              </div>
+            </div>
+
+            <div class="location-hours__card-footer">
+              <span class="location-hours__footer-persian">
+                ۰۶:۳۰ صبح تا ۲۲:۳۰ شب
+              </span>
+
+              <span class="location-hours__footer-english">
+                FROM MORNING TO NIGHT
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing signature -->
+        <div class="location-hours__bottom">
+          <span>YOUR TIME AT AKAM</span>
+
+          <span class="location-hours__bottom-line"></span>
+
+          <span>قهوه، مکث، زندگی.</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================================
+       FOOTER
+  ================================= -->
+
+    <!-- =========================================
+     AKAM — REDESIGNED SHARED FOOTER
+========================================= -->
+
+    <footer class="site-footer site-footer--full akam-footer">
+      <!-- Orange brand accent -->
+      <div class="akam-footer__accent" aria-hidden="true">
+        <span></span>
+      </div>
+
+      <!-- Main footer grid -->
+      <div class="akam-footer__main">
+        <!-- 01. Brand -->
+        <div class="akam-footer__brand">
+          <a
+            class="akam-footer__logo-link"
+            href="/index.html"
+            aria-label="صفحه اصلی آکام"
+          >
+            <img
+              class="akam-footer__logo"
+              src="../assets/images/akam-wordmark.png"
+              alt="آکام، قهوه و رستری"
+              width="551"
+              height="261"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+
+          <span class="akam-footer__brand-english" dir="ltr">
+            COFFEE · CRAFT · CARE
+          </span>
+        </div>
+
+        <!-- 02. Website navigation -->
+        <nav class="akam-footer__nav" aria-label="پیوندهای سایت">
+          <span class="akam-footer__eyebrow" dir="ltr"> EXPLORE AKAM </span>
+
+          <h2 class="akam-footer__section-title">بخش‌های آکام</h2>
+
+          <div class="akam-footer__nav-links">
+            <a href="../index.html">
+              <span class="akam-footer__nav-index">01</span>
+              <span class="akam-footer__nav-text">صفحه اصلی</span>
+              <span class="akam-footer__nav-arrow" aria-hidden="true"
+                >↗&#xfe0e;</span
+              >
+            </a>
+
+            <a href="menu.html">
+              <span class="akam-footer__nav-index">02</span>
+              <span class="akam-footer__nav-text">منوی کافه</span>
+              <span class="akam-footer__nav-arrow" aria-hidden="true"
+                >↗&#xfe0e;</span
+              >
+            </a>
+
+            <a href="about.html">
+              <span class="akam-footer__nav-index">03</span>
+              <span class="akam-footer__nav-text">درباره آکام</span>
+              <span class="akam-footer__nav-arrow" aria-hidden="true"
+                >↗&#xfe0e;</span
+              >
+            </a>
+
+            <a href="location.html">
+              <span class="akam-footer__nav-index">04</span>
+              <span class="akam-footer__nav-text">آدرس کافه</span>
+              <span class="akam-footer__nav-arrow" aria-hidden="true"
+                >↗&#xfe0e;</span
+              >
+            </a>
+          </div>
+        </nav>
+
+        <!-- 03. Contact -->
+        <div class="akam-footer__contact">
+          <span class="akam-footer__eyebrow" dir="ltr"> STAY CONNECTED </span>
+
+          <h2 class="akam-footer__section-title">با آکام در ارتباط باش</h2>
+
+          <!-- Instagram -->
+          <a
+            class="akam-footer__contact-link"
+            href="https://www.instagram.com/akam.coffee.roastery/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="صفحه اینستاگرام آکام"
+          >
+            <span class="akam-footer__contact-icon" aria-hidden="true">
+              ◎
+            </span>
+
+            <span class="akam-footer__contact-text">
+              <span class="akam-footer__contact-label"> اینستاگرام </span>
+
+              <span class="akam-footer__contact-value" dir="ltr">
+                @akam.coffee.roastery
+              </span>
+            </span>
+
+            <span class="akam-footer__contact-arrow" aria-hidden="true">
+              ↗&#xfe0e;
+            </span>
+          </a>
+
+          <!-- Phone -->
+          <a
+            class="akam-footer__contact-link"
+            href="tel:+989301970973"
+            aria-label="تماس تلفنی با آکام"
+          >
+            <span class="akam-footer__contact-icon" aria-hidden="true">
+              ☎&#xfe0e;
+            </span>
+
+            <span class="akam-footer__contact-text">
+              <span class="akam-footer__contact-label"> شماره تماس </span>
+
+              <span class="akam-footer__contact-value" dir="ltr">
+                0937 197 0973
+              </span>
+            </span>
+
+            <span class="akam-footer__contact-arrow" aria-hidden="true">
+              ↗&#xfe0e;
+            </span>
+          </a>
+        </div>
+
+        <!-- 04. Opening hours -->
+        <section
+          class="akam-footer__hours"
+          aria-labelledby="akam-footer-hours-title"
+        >
+          <div class="akam-footer__hours-header">
+            <span class="akam-footer__hours-mark" aria-hidden="true">
+              ✳&#xfe0e;
+            </span>
+
+            <span class="akam-footer__hours-label" dir="ltr">
+              OPENING HOURS
+            </span>
+          </div>
+
+          <h2 class="akam-footer__hours-title" id="akam-footer-hours-title">
+            ساعت فعالیت آکام
+          </h2>
+
+          <div class="akam-footer__hours-range" dir="ltr">
+            <div class="akam-footer__hours-time">
+              <span class="akam-footer__hours-time-label" dir="rtl">
+                شروع فعالیت
+              </span>
+
+              <time datetime="06:30">06:30</time>
+
+              <span class="akam-footer__hours-period" dir="rtl"> صبح </span>
+            </div>
+
+            <span class="akam-footer__hours-separator" aria-hidden="true">
+              —
+            </span>
+
+            <div class="akam-footer__hours-time">
+              <span class="akam-footer__hours-time-label" dir="rtl">
+                پایان فعالیت
+              </span>
+
+              <time datetime="22:30">22:30</time>
+
+              <span class="akam-footer__hours-period" dir="rtl"> شب </span>
+            </div>
+          </div>
+
+          <div class="akam-footer__hours-bottom">هر فنجان، فرصتی برای مکث.</div>
+        </section>
+      </div>
+
+      <!-- Brand signature -->
+      <div class="akam-footer__signature">
+        <span class="akam-footer__signature-symbol" aria-hidden="true">
+          ✳&#xfe0e;
+        </span>
+
+        <span class="akam-footer__signature-line" aria-hidden="true"></span>
+
+        <span class="akam-footer__signature-english" dir="ltr">
+          TAKE YOUR TIME.
+        </span>
+      </div>
+
+      <!-- Bottom strip -->
+      <div class="akam-footer__bottom">
+        <span class="akam-footer__bottom-brand" dir="ltr">
+          AKAM COFFEE &amp; ROASTERY
+        </span>
+
+        <div class="akam-footer__bottom-actions">
+          <span class="akam-footer__copyright" dir="ltr">
+            © <span data-current-year>2026</span> AKAM Cafe
+          </span>
+
+          <a class="akam-footer__back-top" href="#top">
+            بازگشت به بالا
+            <span aria-hidden="true">↑&#xfe0e;</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Shared JavaScript -->
+    <script src="/scripts/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,1061 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#E9D9C5" />
+    <meta
+      name="description"
+      content="با نگاه و حال‌وهوای آکام کافه آشنا شوید؛ قهوه، مکث و زندگی."
+    />
+
+    <title>درباره آکام | AKAM Coffee</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/about.css" />
+    <script src="../scripts/main.js" defer></script>
+    <script src="../scripts/about.js" defer></script>
+  </head>
+
+  <body id="top">
+    <div class="site-wrapper">
+      <!-- Shared AKAM Header -->
+      <header class="site-header" id="home">
+        <a class="brand" href="../index.html" aria-label="آکام، صفحه اصلی">
+          <img
+            class="brand__logo"
+            src="../assets/images/akam-wordmark.png"
+            alt="آکام، قهوه و رستری"
+            width="551"
+            height="261"
+          />
+        </a>
+
+        <nav class="site-nav" id="primary-navigation" aria-label="منوی اصلی">
+          <a class="site-nav__link" href="../index.html">
+            <span class="site-nav__index">01</span>
+            خانه
+          </a>
+
+          <a class="site-nav__link" href="menu.html">
+            <span class="site-nav__index">02</span>
+            منو
+          </a>
+
+          <a
+            class="site-nav__link site-nav__link--active"
+            href="about.html"
+            aria-current="page"
+          >
+            <span class="site-nav__index">03</span>
+            درباره آکام
+          </a>
+
+          <a class="site-nav__link" href="location.html">
+            <span class="site-nav__index">04</span>
+            آدرس
+          </a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a class="header-cta" href="menu.html#hot-drinks">
+            <span>مشاهده منو</span>
+            <span class="header-cta__icon" aria-hidden="true">↗&#xfe0e;</span>
+          </a>
+
+          <button
+            class="menu-toggle"
+            type="button"
+            aria-label="باز کردن منو"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <main id="main-content" class="about-page">
+        <!-- About Hero -->
+
+        <section
+          class="about-hero"
+          id="about-story"
+          aria-labelledby="about-hero-title"
+        >
+          <!-- Hero text -->
+          <div class="about-hero__content">
+            <div class="about-hero__eyebrow">
+              <span class="about-hero__eyebrow-line"></span>
+              <span>THE WORLD OF AKAM</span>
+              <span class="about-hero__eyebrow-number">01</span>
+            </div>
+
+            <p class="about-hero__overline">بیشتر از یک فنجان قهوه</p>
+
+            <h1 id="about-hero-title">
+              دنیای آکام؛
+              <span>برای مکث کردن،</span>
+              <span class="about-hero__title-last">برای زندگی کردن.</span>
+            </h1>
+
+            <p class="about-hero__description">
+              جایی برای فاصله گرفتن از شتاب روزمره؛ برای عطر قهوه، گفت‌وگوهای
+              خوب و لحظه‌هایی که دلت می‌خواهد کمی بیشتر ادامه پیدا کنند.
+            </p>
+
+            <div class="about-hero__actions">
+              <a class="about-hero__cta" href="menu.html#hot-drinks">
+                <span>کشف منوی آکام</span>
+                <span class="about-hero__cta-icon" aria-hidden="true"
+                  >↗&#xfe0e;</span
+                >
+              </a>
+
+              <span class="about-hero__action-note">
+                یک انتخاب، یک مکث، یک حال خوب.
+              </span>
+            </div>
+
+            <div class="about-hero__signature">
+              <span class="about-hero__signature-symbol" aria-hidden="true"
+                >✳&#xfe0e;</span
+              >
+              <span class="about-hero__signature-text">
+                <span>COFFEE · CRAFT · CARE</span>
+                <span>قهوه، مکث، زندگی.</span>
+              </span>
+            </div>
+          </div>
+
+          <!-- Hero visual composition -->
+          <div class="about-hero__visual">
+            <span class="about-hero__visual-index" aria-hidden="true">
+              A / 01
+            </span>
+
+            <!-- Main image -->
+            <div class="about-hero__image-frame about-hero__image-frame--main">
+              <div class="about-hero__image-placeholder" aria-hidden="true">
+                <span class="about-hero__placeholder-mark">AKAM</span>
+                <span>تصویر اصلی آکام</span>
+                <span class="about-hero__placeholder-caption">
+                  A MOMENT TO SLOW DOWN
+                </span>
+              </div>
+
+              <img
+                class="about-hero__image"
+                data-about-image
+                src="../assets/images/about/about-hero.webp"
+                alt="تصویر اصلی آکام کافه"
+                fetchpriority="high"
+                decoding="async"
+              />
+
+              <div class="about-hero__image-caption">
+                <span>AKAM CAFE</span>
+                <span>TAKE YOUR TIME.</span>
+              </div>
+            </div>
+
+            <!-- Floating detail image -->
+            <div
+              class="about-hero__image-frame about-hero__image-frame--detail"
+            >
+              <div class="about-hero__detail-placeholder" aria-hidden="true">
+                <span>جزئیات قهوه</span>
+              </div>
+
+              <img
+                class="about-hero__image"
+                data-about-image
+                src="../assets/images/about/about-detail.webp"
+                alt="جزئیات یک فنجان قهوه"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+
+            <!-- Floating brand note -->
+            <div class="about-hero__floating-note">
+              <span class="about-hero__floating-symbol" aria-hidden="true"
+                >✳&#xfe0e;</span
+              >
+              <div>
+                <span class="about-hero__floating-label">A LITTLE PAUSE</span>
+                <p>لحظه‌ای برای خودت.</p>
+              </div>
+            </div>
+
+            <span class="about-hero__decor" aria-hidden="true">A</span>
+          </div>
+
+          <!-- Hero bottom signature line -->
+          <div class="about-hero__bottom">
+            <span>01 — OUR STORY</span>
+            <span class="about-hero__bottom-line"></span>
+            <span>COFFEE · MOMENTS · LIFE</span>
+          </div>
+        </section>
+
+        <!-- About Philosophy -->
+        <section
+          class="about-philosophy"
+          aria-labelledby="about-philosophy-title"
+        >
+          <div class="about-philosophy__heading">
+            <div class="about-philosophy__eyebrow">
+              <span class="about-philosophy__eyebrow-line"></span>
+              <span>THE AKAM PHILOSOPHY</span>
+              <span class="about-philosophy__number">02</span>
+            </div>
+
+            <h2 id="about-philosophy-title">
+              زیبایی،
+              <span>در جزئیات پنهان است.</span>
+            </h2>
+
+            <p class="about-philosophy__lead">
+              از انتخاب یک فنجان تا زمانی که برای خودت کنار می‌گذاری؛ گاهی همین
+              جزئیات کوچک‌اند که یک تجربه را به‌یادماندنی می‌کنند.
+            </p>
+
+            <div class="about-philosophy__divider">
+              <span></span>
+              <span></span>
+            </div>
+
+            <p class="about-philosophy__description">
+              برای آکام، قهوه فقط نقطه شروع است. آنچه اهمیت دارد، حسی است که از
+              یک مکث کوتاه، یک گفت‌وگوی صمیمی یا لحظه‌ای آرام با خودت به یاد
+              می‌ماند.
+            </p>
+          </div>
+
+          <div class="about-philosophy__panel">
+            <div class="about-philosophy__panel-top">
+              <span>WHAT MAKES A MOMENT</span>
+              <span class="about-philosophy__panel-symbol" aria-hidden="true"
+                >✳&#xfe0e;</span
+              >
+            </div>
+
+            <div class="about-philosophy__values">
+              <article class="about-philosophy__value">
+                <span class="about-philosophy__value-number">01</span>
+
+                <div class="about-philosophy__value-content">
+                  <h3>لذت انتخاب</h3>
+                  <p>پیدا کردن طعمی که با حال‌وهوای همان لحظه‌ات جور باشد.</p>
+                </div>
+
+                <span class="about-philosophy__value-arrow" aria-hidden="true"
+                  >↙</span
+                >
+              </article>
+
+              <article class="about-philosophy__value">
+                <span class="about-philosophy__value-number">02</span>
+
+                <div class="about-philosophy__value-content">
+                  <h3>فرصتی برای مکث</h3>
+                  <p>فاصله گرفتن از شتاب روزمره و لذت بردن از اکنون.</p>
+                </div>
+
+                <span class="about-philosophy__value-arrow" aria-hidden="true"
+                  >↙</span
+                >
+              </article>
+
+              <article class="about-philosophy__value">
+                <span class="about-philosophy__value-number">03</span>
+
+                <div class="about-philosophy__value-content">
+                  <h3>حس یک لحظه خوب</h3>
+                  <p>چیزی فراتر از نوشیدن قهوه؛ خاطره‌ای کوچک از یک روز.</p>
+                </div>
+
+                <span class="about-philosophy__value-arrow" aria-hidden="true"
+                  >↙</span
+                >
+              </article>
+            </div>
+
+            <div class="about-philosophy__panel-footer">
+              <span>AKAM · 02</span>
+              <span>TAKE YOUR TIME.</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 03: The Meaning of AKAM -->
+        <section class="about-name-story" aria-labelledby="about-name-title">
+          <div class="about-name-story__content">
+            <div class="about-name-story__eyebrow">
+              <span class="about-name-story__eyebrow-line"></span>
+              <span>THE MEANING OF AKAM</span>
+              <span class="about-name-story__number">03</span>
+            </div>
+
+            <span class="about-name-story__overline"> یک نام، یک نگاه </span>
+
+            <h2 id="about-name-title">
+              آکام؛
+              <span>روایتی از فراز و بلندی.</span>
+            </h2>
+
+            <p class="about-name-story__lead">
+              هر نامی می‌تواند نقطه شروع یک داستان باشد.
+            </p>
+
+            <p class="about-name-story__description">
+              در برخی فرهنگ‌های لغت فارسی، «آکام» با تپه‌ها، پشته‌ها و زمین‌های
+              بلند پیوند دارد. برای ما، این تصویر یادآور نگاه کردن از زاویه‌ای
+              تازه است؛ مکثی کوتاه برای دیدن جزئیاتی که در شتاب روزمره ممکن است
+              از چشم پنهان بمانند.
+            </p>
+
+            <div class="about-name-story__keywords">
+              <span>فراز</span>
+              <span
+                class="about-name-story__keyword-dot"
+                aria-hidden="true"
+              ></span>
+              <span>نگاه</span>
+              <span
+                class="about-name-story__keyword-dot"
+                aria-hidden="true"
+              ></span>
+              <span>مکث</span>
+            </div>
+
+            <p class="about-name-story__closing">
+              این، برداشت آکام از نام خودش است؛ دعوتی برای تجربه کردن لحظه‌ها با
+              توجهی بیشتر.
+            </p>
+          </div>
+
+          <div class="about-name-story__visual">
+            <div class="about-name-story__art">
+              <div class="about-name-story__art-top">
+                <span>AKAM</span>
+                <span>EST. / A POINT OF VIEW</span>
+              </div>
+
+              <svg
+                class="about-name-story__landscape"
+                viewBox="0 0 500 570"
+                fill="none"
+                role="img"
+                aria-labelledby="about-landscape-title"
+              >
+                <title id="about-landscape-title">
+                  تصویر انتزاعی از فراز و خطوط تپه‌ها
+                </title>
+
+                <circle cx="335" cy="170" r="78" fill="#D5DCCB" />
+
+                <circle
+                  cx="335"
+                  cy="170"
+                  r="99"
+                  stroke="#A9B99C"
+                  stroke-opacity=".6"
+                />
+
+                <path
+                  d="M-35 355
+                       C45 290 84 306 144 252
+                       C204 198 248 235 300 278
+                       C350 319 400 278 535 213"
+                  stroke="#7B896C"
+                  stroke-width="1.5"
+                />
+
+                <path
+                  d="M-35 384
+                       C50 320 97 340 158 286
+                       C217 233 254 264 308 309
+                       C365 355 422 308 535 247"
+                  stroke="#7B896C"
+                  stroke-opacity=".75"
+                />
+
+                <path
+                  d="M-35 414
+                       C57 351 113 370 175 318
+                       C235 268 268 295 321 341
+                       C377 389 440 339 535 281"
+                  stroke="#7B896C"
+                  stroke-opacity=".55"
+                />
+
+                <path
+                  d="M-35 446
+                       C60 382 130 401 190 351
+                       C251 302 287 329 339 375
+                       C394 424 451 371 535 315"
+                  stroke="#7B896C"
+                  stroke-opacity=".4"
+                />
+
+                <path
+                  d="M-35 481
+                       C75 416 145 435 208 386
+                       C269 338 302 363 356 411
+                       C412 460 464 405 535 351"
+                  stroke="#7B896C"
+                  stroke-opacity=".28"
+                />
+
+                <path
+                  d="M-30 520
+                       C70 465 154 467 226 423
+                       C286 387 321 402 371 449
+                       C422 497 470 454 535 398"
+                  stroke="#26382E"
+                  stroke-opacity=".25"
+                />
+
+                <circle cx="115" cy="160" r="4" fill="#26382E" />
+
+                <path
+                  d="M115 138V111M115 209V182M93 160H66M164 160H137"
+                  stroke="#26382E"
+                  stroke-opacity=".65"
+                />
+
+                <path
+                  d="M92 160L115 137L138 160"
+                  stroke="#26382E"
+                  stroke-opacity=".65"
+                />
+              </svg>
+
+              <div class="about-name-story__art-bottom">
+                <span>01 — THE NAME</span>
+                <span>COFFEE · CRAFT · CARE</span>
+              </div>
+            </div>
+
+            <div class="about-name-story__stamp">
+              <span class="about-name-story__stamp-symbol" aria-hidden="true"
+                >✳&#xfe0e;</span
+              >
+              <span>نگاهی تازه</span>
+              <span dir="ltr">A DIFFERENT PERSPECTIVE</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 04: The AKAM Coffee Experience -->
+        <section
+          class="about-experience"
+          aria-labelledby="about-experience-title"
+        >
+          <header class="about-experience__header">
+            <div class="about-experience__eyebrow">
+              <span class="about-experience__eyebrow-line"></span>
+              <span>THE AKAM EXPERIENCE</span>
+              <span class="about-experience__number">04</span>
+            </div>
+
+            <span class="about-experience__overline"> از منو تا لحظه </span>
+
+            <h2 id="about-experience-title">
+              هر سلیقه‌ای،
+              <span>یک راه برای کشف قهوه دارد.</span>
+            </h2>
+
+            <p class="about-experience__intro">
+              در آکام، منو به یک انتخاب محدود نمی‌شود؛ از قهوه‌های اسپرسومحور تا
+              دم‌آوری، دمنوش و نوشیدنی‌های سرد، هر بخش مسیر متفاوتی برای انتخاب
+              پیش روی تو می‌گذارد.
+            </p>
+          </header>
+
+          <!-- Editorial visual -->
+          <div class="about-experience__feature">
+            <div class="about-experience__visual">
+              <div class="about-experience__image-frame">
+                <div class="about-experience__placeholder" aria-hidden="true">
+                  <span class="about-experience__placeholder-mark">AKAM</span>
+                  <span>محل تصویر قهوه یا فضای آکام</span>
+                  <span class="about-experience__placeholder-caption">
+                    A CLOSER LOOK AT COFFEE
+                  </span>
+                </div>
+
+                <img
+                  class="about-experience__image"
+                  data-about-image
+                  src="../assets/images/about/akam-coffee-experience.webp"
+                  alt="قهوه و حال‌وهوای آکام کافه"
+                  loading="lazy"
+                  decoding="async"
+                />
+
+                <div class="about-experience__image-caption">
+                  <span>AKAM CAFE</span>
+                  <span>RASHT · DEYLAMAN</span>
+                </div>
+              </div>
+
+              <span class="about-experience__visual-index" aria-hidden="true">
+                COFFEE / 01
+              </span>
+            </div>
+
+            <div class="about-experience__story">
+              <span class="about-experience__story-label">
+                FIND YOUR OWN CUP
+              </span>
+
+              <h3>انتخاب خوب، از شناخت سلیقه شروع می‌شود.</h3>
+
+              <p>
+                بعضی انتخاب‌ها با یک اسپرسو شروع می‌شوند، بعضی با دم‌آوری آرام
+                V60 و بعضی با یک نوشیدنی خنک یا فنجانی دمنوش. تنوع منوی آکام
+                برای همین فرصت انتخاب ساخته شده است.
+              </p>
+
+              <a
+                class="about-experience__link"
+                href="/pages/menu.html#hot-drinks"
+              >
+                دیدن انتخاب‌های منو
+                <span aria-hidden="true">↗&#xfe0e;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Three menu pillars -->
+          <div class="about-experience__pillars">
+            <article class="about-experience__pillar">
+              <div class="about-experience__pillar-top">
+                <span class="about-experience__pillar-number">01</span>
+                <span class="about-experience__pillar-symbol" aria-hidden="true"
+                  >◉</span
+                >
+              </div>
+
+              <h3>سه انتخاب قهوه</h3>
+
+              <p>
+                ایران، میهان و وطن؛ سه انتخاب برای نوشیدنی‌های اسپرسومحور منو.
+              </p>
+
+              <div class="about-experience__tags" aria-label="انواع قهوه">
+                <span>ایران</span>
+                <span>میهان</span>
+                <span>وطن</span>
+              </div>
+            </article>
+
+            <article class="about-experience__pillar">
+              <div class="about-experience__pillar-top">
+                <span class="about-experience__pillar-number">02</span>
+                <span class="about-experience__pillar-symbol" aria-hidden="true"
+                  >⌁</span
+                >
+              </div>
+
+              <h3>دم‌آوری و کشف طعم</h3>
+
+              <p>
+                از V60 با دم‌آوری دستی تا کلد برو؛ برای تجربه‌هایی متفاوت از
+                قهوه.
+              </p>
+
+              <div class="about-experience__tags" aria-label="روش‌های دم‌آوری">
+                <span>V60</span>
+                <span>Cold Brew</span>
+              </div>
+            </article>
+
+            <article class="about-experience__pillar">
+              <div class="about-experience__pillar-top">
+                <span class="about-experience__pillar-number">03</span>
+                <span class="about-experience__pillar-symbol" aria-hidden="true"
+                  >✳&#xfe0e;</span
+                >
+              </div>
+
+              <h3>فراتر از قهوه</h3>
+
+              <p>
+                Tea Bar، دمنوش‌ها، نوشیدنی‌های سرد، شیک‌ها و دسرها؛ انتخاب‌هایی
+                برای حال‌وهوای متفاوت.
+              </p>
+
+              <div class="about-experience__tags" aria-label="بخش‌های دیگر منو">
+                <span>Tea Bar</span>
+                <span>نوشیدنی سرد</span>
+                <span>دسر</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Location signature -->
+          <div class="about-experience__location">
+            <div class="about-experience__location-symbol" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                />
+                <circle
+                  cx="12"
+                  cy="10"
+                  r="2.3"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                />
+              </svg>
+            </div>
+
+            <div class="about-experience__location-copy">
+              <span>FIND AKAM</span>
+              <h3>آکام، در بلوار دیلمان رشت</h3>
+              <p>برای آشنایی با موقعیت کافه، به صفحه آدرس سر بزن.</p>
+            </div>
+
+            <a class="about-experience__location-link" href="location.html">
+              مشاهده موقعیت
+              <span aria-hidden="true">↗&#xfe0e;</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="about-gallery" aria-labelledby="about-gallery-title">
+          <div class="about-gallery__header">
+            <div class="about-gallery__heading">
+              <div class="about-gallery__eyebrow">
+                <span class="about-gallery__eyebrow-line"></span>
+                <span>INSIDE AKAM</span>
+                <span class="about-gallery__number">05</span>
+              </div>
+
+              <h2 id="about-gallery-title">
+                حال‌وهوای آکام،
+                <span>در جزئیاتش پیدا می‌شود.</span>
+              </h2>
+            </div>
+
+            <p class="about-gallery__description">
+              از عطر قهوه تا فضای گرم و صمیمی کافه؛ آکام مجموعه‌ای از جزئیات
+              کوچک است که کنار هم، لحظه‌ای متفاوت از روزمرگی می‌سازند.
+            </p>
+          </div>
+
+          <div class="about-gallery__grid">
+            <!-- تصویر اول: فضای داخلی کافه -->
+            <figure class="about-gallery__item about-gallery__item--main">
+              <div
+                class="about-gallery__image-frame about-gallery__image-frame--interior"
+              >
+                <div class="about-gallery__placeholder">
+                  <span class="about-gallery__placeholder-mark">A</span>
+                  <span>فضای داخلی آکام</span>
+                  <small>THE SPACE</small>
+                </div>
+
+                <img
+                  class="about-gallery__image"
+                  data-about-image
+                  src="../assets/images/about/space-interior.webp"
+                  alt="فضای داخلی و چیدمان آکام کافه در رشت"
+                  loading="lazy"
+                  decoding="async"
+                />
+
+                <span class="about-gallery__image-index">01 / SPACE</span>
+              </div>
+
+              <figcaption class="about-gallery__caption">
+                <span>فضایی برای ماندن</span>
+                <span>01</span>
+              </figcaption>
+            </figure>
+
+            <!-- تصویر دوم: جزئیات قهوه -->
+            <figure class="about-gallery__item">
+              <div
+                class="about-gallery__image-frame about-gallery__image-frame--coffee"
+              >
+                <div class="about-gallery__placeholder">
+                  <span class="about-gallery__placeholder-mark">AKAM</span>
+                  <span>جزئیات قهوه</span>
+                  <small>THE CRAFT</small>
+                </div>
+
+                <img
+                  class="about-gallery__image"
+                  data-about-image
+                  src="../assets/images/about/coffee-ritual.webp"
+                  alt="جزئیات آماده‌سازی و سرو قهوه در آکام"
+                  loading="lazy"
+                  decoding="async"
+                />
+
+                <span class="about-gallery__image-index">02 / COFFEE</span>
+              </div>
+
+              <figcaption class="about-gallery__caption">
+                <span>هنر در هر فنجان</span>
+                <span>02</span>
+              </figcaption>
+            </figure>
+
+            <!-- تصویر سوم: میز و لحظه‌های کافه -->
+            <figure class="about-gallery__item">
+              <div
+                class="about-gallery__image-frame about-gallery__image-frame--moments"
+              >
+                <div class="about-gallery__placeholder">
+                  <span class="about-gallery__placeholder-mark">✳&#xfe0e;</span>
+                  <span>لحظه‌های آکام</span>
+                  <small>THE MOMENTS</small>
+                </div>
+
+                <img
+                  class="about-gallery__image"
+                  data-about-image
+                  src="../assets/images/about/akam-moments.webp"
+                  alt="جزئیات میز و فضای دلنشین آکام کافه"
+                  loading="lazy"
+                  decoding="async"
+                />
+
+                <span class="about-gallery__image-index">03 / MOMENTS</span>
+              </div>
+
+              <figcaption class="about-gallery__caption">
+                <span>لحظه‌هایی برای خودت</span>
+                <span>03</span>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="about-gallery__footer">
+            <span class="about-gallery__footer-symbol">✳&#xfe0e;</span>
+            <p>قهوه، مکث، زندگی.</p>
+            <span class="about-gallery__footer-english">
+              EVERY DETAIL HAS A STORY.
+            </span>
+          </div>
+        </section>
+
+        <!-- SECTION 06: AKAM OPENING HOURS -->
+        <section class="about-hours" aria-labelledby="about-hours-title">
+          <div class="about-hours__container">
+            <div class="about-hours__content">
+              <div class="about-hours__eyebrow">
+                <span class="about-hours__eyebrow-line"></span>
+                <span>COME BY AKAM</span>
+                <span class="about-hours__number">06</span>
+              </div>
+
+              <p class="about-hours__overline">صبح زود، تا آخر شب</p>
+
+              <h2 id="about-hours-title">
+                برای شروع روز،
+                <span>یا ادامه یک شب خوب.</span>
+              </h2>
+
+              <p class="about-hours__description">
+                فرقی نمی‌کند روزت را با یک فنجان قهوه شروع کنی یا برای کمی فاصله
+                گرفتن از شلوغی روز به آکام بیایی؛ اینجا جایی برای مکث کردن و لذت
+                بردن از لحظه‌هاست.
+              </p>
+
+              <a class="about-hours__location-link" href="location.html">
+                <span>مسیر رسیدن به آکام</span>
+                <span class="about-hours__link-icon" aria-hidden="true"
+                  >↗&#xfe0e;</span
+                >
+              </a>
+            </div>
+
+            <div class="about-hours__card">
+              <div class="about-hours__card-top">
+                <span class="about-hours__card-label">OPENING HOURS</span>
+                <span class="about-hours__card-mark" aria-hidden="true"
+                  >✳&#xfe0e;</span
+                >
+              </div>
+
+              <div class="about-hours__schedule-title">ساعت فعالیت</div>
+
+              <div
+                class="about-hours__time-range"
+                dir="ltr"
+                aria-label="از ساعت ۶ و ۳۰ دقیقه صبح تا ۱۰ و ۳۰ دقیقه شب"
+              >
+                <div class="about-hours__time">
+                  <time datetime="06:30">06:30</time>
+                  <span>AM · صبح</span>
+                </div>
+
+                <span class="about-hours__time-separator" aria-hidden="true">
+                  —
+                </span>
+
+                <div class="about-hours__time">
+                  <time datetime="22:30">22:30</time>
+                  <span>PM · شب</span>
+                </div>
+              </div>
+
+              <div class="about-hours__timeline" aria-hidden="true">
+                <span class="about-hours__timeline-start"></span>
+                <span class="about-hours__timeline-line"></span>
+                <span class="about-hours__timeline-end"></span>
+              </div>
+
+              <div class="about-hours__schedule-note">
+                <span>از اولین فنجان صبحگاهی</span>
+                <span>تا آخرین مکث شبانه</span>
+              </div>
+
+              <div class="about-hours__card-footer">
+                <span>AKAM CAFE</span>
+                <span>RASHT · DEYLAMAN BLVD</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-hours__bottom">
+            <span>YOUR DAY, YOUR MOMENT.</span>
+            <span class="about-hours__bottom-line"></span>
+            <span>قهوه، مکث، زندگی.</span>
+          </div>
+        </section>
+      </main>
+
+      <!-- =========================================
+     AKAM — REDESIGNED SHARED FOOTER
+========================================= -->
+
+      <footer class="site-footer site-footer--full akam-footer">
+        <!-- Orange brand accent -->
+        <div class="akam-footer__accent" aria-hidden="true">
+          <span></span>
+        </div>
+
+        <!-- Main footer grid -->
+        <div class="akam-footer__main">
+          <!-- 01. Brand -->
+          <div class="akam-footer__brand">
+            <a
+              class="akam-footer__logo-link"
+              href="/index.html"
+              aria-label="صفحه اصلی آکام"
+            >
+              <img
+                class="akam-footer__logo"
+                src="../assets/images/akam-wordmark.png"
+                alt="آکام، قهوه و رستری"
+                width="551"
+                height="261"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+
+            <span class="akam-footer__brand-english" dir="ltr">
+              COFFEE · CRAFT · CARE
+            </span>
+          </div>
+
+          <!-- 02. Website navigation -->
+          <nav class="akam-footer__nav" aria-label="پیوندهای سایت">
+            <span class="akam-footer__eyebrow" dir="ltr"> EXPLORE AKAM </span>
+
+            <h2 class="akam-footer__section-title">بخش‌های آکام</h2>
+
+            <div class="akam-footer__nav-links">
+              <a href="../index.html">
+                <span class="akam-footer__nav-index">01</span>
+                <span class="akam-footer__nav-text">صفحه اصلی</span>
+                <span class="akam-footer__nav-arrow" aria-hidden="true"
+                  >↗&#xfe0e;</span
+                >
+              </a>
+
+              <a href="menu.html">
+                <span class="akam-footer__nav-index">02</span>
+                <span class="akam-footer__nav-text">منوی کافه</span>
+                <span class="akam-footer__nav-arrow" aria-hidden="true"
+                  >↗&#xfe0e;</span
+                >
+              </a>
+
+              <a href="about.html">
+                <span class="akam-footer__nav-index">03</span>
+                <span class="akam-footer__nav-text">درباره آکام</span>
+                <span class="akam-footer__nav-arrow" aria-hidden="true"
+                  >↗&#xfe0e;</span
+                >
+              </a>
+
+              <a href="location.html">
+                <span class="akam-footer__nav-index">04</span>
+                <span class="akam-footer__nav-text">آدرس کافه</span>
+                <span class="akam-footer__nav-arrow" aria-hidden="true"
+                  >↗&#xfe0e;</span
+                >
+              </a>
+            </div>
+          </nav>
+
+          <!-- 03. Contact -->
+          <div class="akam-footer__contact">
+            <span class="akam-footer__eyebrow" dir="ltr"> STAY CONNECTED </span>
+
+            <h2 class="akam-footer__section-title">با آکام در ارتباط باش</h2>
+
+            <!-- Instagram -->
+            <a
+              class="akam-footer__contact-link"
+              href="https://www.instagram.com/akam.coffee.roastery/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="صفحه اینستاگرام آکام"
+            >
+              <span class="akam-footer__contact-icon" aria-hidden="true">
+                ◎
+              </span>
+
+              <span class="akam-footer__contact-text">
+                <span class="akam-footer__contact-label"> اینستاگرام </span>
+
+                <span class="akam-footer__contact-value" dir="ltr">
+                  @akam.coffee.roastery
+                </span>
+              </span>
+
+              <span class="akam-footer__contact-arrow" aria-hidden="true">
+                ↗&#xfe0e;
+              </span>
+            </a>
+
+            <!-- Phone -->
+            <a
+              class="akam-footer__contact-link"
+              href="tel:+989301970973"
+              aria-label="تماس تلفنی با آکام"
+            >
+              <span class="akam-footer__contact-icon" aria-hidden="true">
+                ☎&#xfe0e;
+              </span>
+
+              <span class="akam-footer__contact-text">
+                <span class="akam-footer__contact-label"> شماره تماس </span>
+
+                <span class="akam-footer__contact-value" dir="ltr">
+                  0937 197 0973
+                </span>
+              </span>
+
+              <span class="akam-footer__contact-arrow" aria-hidden="true">
+                ↗&#xfe0e;
+              </span>
+            </a>
+          </div>
+
+          <!-- 04. Opening hours -->
+          <section
+            class="akam-footer__hours"
+            aria-labelledby="akam-footer-hours-title"
+          >
+            <div class="akam-footer__hours-header">
+              <span class="akam-footer__hours-mark" aria-hidden="true">
+                ✳&#xfe0e;
+              </span>
+
+              <span class="akam-footer__hours-label" dir="ltr">
+                OPENING HOURS
+              </span>
+            </div>
+
+            <h2 class="akam-footer__hours-title" id="akam-footer-hours-title">
+              ساعت فعالیت آکام
+            </h2>
+
+            <div class="akam-footer__hours-range" dir="ltr">
+              <div class="akam-footer__hours-time">
+                <span class="akam-footer__hours-time-label" dir="rtl">
+                  شروع فعالیت
+                </span>
+
+                <time datetime="06:30">06:30</time>
+
+                <span class="akam-footer__hours-period" dir="rtl"> صبح </span>
+              </div>
+
+              <span class="akam-footer__hours-separator" aria-hidden="true">
+                —
+              </span>
+
+              <div class="akam-footer__hours-time">
+                <span class="akam-footer__hours-time-label" dir="rtl">
+                  پایان فعالیت
+                </span>
+
+                <time datetime="22:30">22:30</time>
+
+                <span class="akam-footer__hours-period" dir="rtl"> شب </span>
+              </div>
+            </div>
+
+            <div class="akam-footer__hours-bottom">
+              هر فنجان، فرصتی برای مکث.
+            </div>
+          </section>
+        </div>
+
+        <!-- Brand signature -->
+        <div class="akam-footer__signature">
+          <span class="akam-footer__signature-symbol" aria-hidden="true">
+            ✳&#xfe0e;
+          </span>
+
+          <span class="akam-footer__signature-line" aria-hidden="true"></span>
+
+          <span class="akam-footer__signature-english" dir="ltr">
+            TAKE YOUR TIME.
+          </span>
+        </div>
+
+        <!-- Bottom strip -->
+        <div class="akam-footer__bottom">
+          <span class="akam-footer__bottom-brand" dir="ltr">
+            AKAM COFFEE &amp; ROASTERY
+          </span>
+
+          <div class="akam-footer__bottom-actions">
+            <span class="akam-footer__copyright" dir="ltr">
+              © <span data-current-year>2026</span> AKAM Cafe
+            </span>
+
+            <a class="akam-footer__back-top" href="#top">
+              بازگشت به بالا
+              <span aria-hidden="true">↑&#xfe0e;</span>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
